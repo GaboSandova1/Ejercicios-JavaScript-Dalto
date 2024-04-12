@@ -38,7 +38,7 @@ do{
         let num1 = prompt("Elija el primer numero para sumar");
         let num2 = prompt("Elija el segundo numero para sumar");
         res = suma(num1, num2);
-        alert(`El resultado de ${num1} + ${num2} es:<b> ${res} </b>`);
+        alert(`El resultado de ${num1} + ${num2} es: ${res}`);
         document.write(`El resultado de ${num1} + ${num2} es:<b> ${res} </b><br>`);
     }
 
@@ -46,7 +46,7 @@ do{
         let num1 = prompt("Elija el primer numero para restar");
         let num2 = prompt("Elija el segundo numero para restar");
         res = resta(num1, num2);
-        alert(`El resultado de ${num1} - ${num2} es:<b> ${res} </b>`);
+        alert(`El resultado de ${num1} - ${num2} es: ${res}`);
         document.write(`El resultado de ${num1} - ${num2} es:<b> ${res} </b><br>`);
     }
 
@@ -54,7 +54,7 @@ do{
         let num1 = prompt("Elija el primer numero para multiplicar");
         let num2 = prompt("Elija el segundo numero para multiplicar");
         res = multiplicacion(num1, num2);
-        alert(`El resultado de ${num1} * ${num2} es:<b> ${res} </b>`);
+        alert(`El resultado de ${num1} * ${num2} es: ${res}`);
         document.write(`El resultado de ${num1} * ${num2} es:<b> ${res} </b><br>`);
     }
 
@@ -62,7 +62,7 @@ do{
         let num1 = prompt("Elija el primer numero para dividir");
         let num2 = prompt("Elija el segundo numero para dividir");
         res = division(num1, num2);
-        alert(`El resultado de ${num1} / ${num2} es:<b> ${res} </b>`);
+        alert(`El resultado de ${num1} / ${num2} es: ${res}`);
         document.write(`El resultado de ${num1} / ${num2} es:<b> ${res} </b><br>`);
     }
 
